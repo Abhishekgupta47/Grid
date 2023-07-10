@@ -1,0 +1,18 @@
+.container{
+  background: yellowgreen;
+  height: 700px;
+  width: 900px;
+  display: grid;
+  /* grid-template-columns: 133px 133px 133px;
+  grid-template-rows: 133px 133px 133px; */
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+  row-gap: 12px;
+  column-gap: 14px;
+}
+.item{
+    background: rgb(176, 12, 67);
+    /* height: 123px;
+    width: 122px; */
+
+}
